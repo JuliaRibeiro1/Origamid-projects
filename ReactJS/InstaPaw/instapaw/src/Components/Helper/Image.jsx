@@ -18,3 +18,4 @@ const Image = ({ alt, ...props }) => {
 };
 
 export default Image;
+
