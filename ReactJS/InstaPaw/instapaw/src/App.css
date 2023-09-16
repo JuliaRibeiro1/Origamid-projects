@@ -84,6 +84,23 @@ a {
   animation: animeLeft 0.3s forwards;
 }
 
+.AppBody {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+}
+
+.AppBody {
+  flex: 1;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 1.3rem;
+
+}
 @keyframes animeLeft {
   to {
     opacity: 1;
